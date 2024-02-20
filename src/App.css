@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 .App {
   text-align: center;
+  font-family:'Dongle' ;
 }
-
+h1{
+  font-weight: 900;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +16,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.font{
+  font-family: 'Dongle';
+  font-size: 30px;
+  color:black;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,7 +35,194 @@
 .App-link {
   color: #61dafb;
 }
+.bg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/HOME.png);
+  background-size: cover;
+  height:100vh;
+  background-position-x: 159px;
+}
+.addBtn{
+margin-top: 150px;
+background-color: black;
+color: white;
+border-color:white !important;
+border:"2px";
 
+}
+.addBtn:hover{
+  background-color: white;
+color: black;
+border-color:rgb(0, 0, 0) !important;
+border:"2px";
+}
+.addingBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/AddingBmo.webp);
+  background-size: cover;
+  height:100vh;
+}
+.madLibsBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/MadlibBG.png);
+  background-size: cover;
+  height:100vh;
+}
+.addInput{
+  margin-top: 200px;
+}
+.greatBtn{
+  margin-top: 150px;
+  background-color: #2A1856;
+  color: white;
+  border-color:white !important;
+  border:"2px";  
+}
+.greatBtn:hover{
+  margin-top: 150px;
+  background-color: #fff;
+  color: #2A1856;;
+  border-color:#2A1856!important;
+  border:"2px";  
+}
+.center-items{
+  display: flex;
+  justify-content: center;
+}
+input{
+ background-color: #D9D9D9 ;
+}
+.greatOrLessBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/Greater.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.sayHelloBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/SayHelloBG.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.helloBtn{
+  border-color:#ffffff!important;
+  border:"2px";  
+}
+.oddOrEvenBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/EvenBG.png);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.oddBtn{
+  background-color: #fff;
+  color: #000000;;
+  border-color:#ffffff!important;
+  border:"2px";  
+}
+.restBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/FoodBg.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.reverseItNumBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/ReverseItBG.png);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.reverseItAlphaBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/EightBallBG2.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.nAndTimeBg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/TimeBG.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+.nAndTimeBtn{
+  margin-top: 80px;
+  background-color: black;
+  color: white;
+  border-color:rgb(0, 0, 0) !important;
+  border:"2px";
+}
+.nAndTimeBtn:hover{
+  margin-top: 80px;
+  background-color: black !important;
+  color: white;
+  border-color:rgb(0, 0, 0) !important;
+  border:"2px";
+}
+.magic8Bg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/EightBallBG.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height:100vh;
+  margin: 0px;
+}
+@media (min-width: 426px),(max-width: 768px) {
+  .addingBg{
+    background-repeat:no-repeat; 
+    background-image: url(./assets/AddingBmo.webp);
+    background-size: cover;
+    background-position-x: center;
+    height:100vh;
+    margin: 0px;
+  }
+  .bg{
+  background-repeat:no-repeat; 
+  background-image: url(./assets/HOME.png);
+  background-size: cover;
+    background-position-x: -150px; 
+    height:100vh;
+   
+  }
+}
+
+@media (max-width: 425px) {
+  .addBtn{
+    margin-top:130px;
+  }
+  .addInput{
+    margin-top: 230px;
+  }
+  .bg{
+    background-position-x: 0px; 
+    background-image: url(./assets/Group\ 4.png);
+    background-size: cover;
+    height:100vh;
+  
+  }
+  .addingBg{
+    background-repeat:no-repeat; 
+    background-image: url(./assets/AddingBmo.webp);
+    background-size: cover;
+    background-position-x: center;
+    height:100vh;
+    margin: 0px;
+  }
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +231,4 @@
     transform: rotate(360deg);
   }
 }
+
